@@ -3,7 +3,7 @@
 /**
  * main - Entery  point
  *
- * Description: A C programme that prints the size of various types using sizeof
+ * Description: A C programme prints size of various types using sizeof
  *
  * Return: This return 0
  */
