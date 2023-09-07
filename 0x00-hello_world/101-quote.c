@@ -5,7 +5,7 @@
  *
  * Description: A C programme using write to print a quote
  *
- * Return :This return 1
+ * Return: This return 1
  */
 
 int main(void)
