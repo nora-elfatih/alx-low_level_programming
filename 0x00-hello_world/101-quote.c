@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <unistd.h>
 
 /**
@@ -5,12 +6,12 @@
  *
  * Description: A programme using write to print a quote
  *
- * Return :This return 1 (not success)
+ * Return :This return 1
  */
 
 int main(void)
 {
-	char quo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
-		write(1, quo, 59);
-	rerturn(1);
+	char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
+		write(2, quote, 59);
+	rerturn (1);
 }
