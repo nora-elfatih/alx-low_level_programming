@@ -10,20 +10,16 @@
 
 int main(void)
 {
-	int n = 0;
-	char a = 'a';
+	int n;
+	char a;
 
-	while (n < 10)
-	{
-		putchar(n);
-		n++;
-	}
-	while (a <= 'f')
-	{
-		putchar(a);
-		a++;
-	}
+	for (n = 0; n < 10; n++)
+	putchar(n);
+
+	for (a = 'a'; a <= 'f'; a++)
+	putchar(a);
 	putchar('\n');
+
 	return (0);
 }
 
