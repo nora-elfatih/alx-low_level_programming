@@ -13,9 +13,9 @@ int main(void)
 	int a = 0;
 	int b = 0;
 
-	for (a = 0; a < 10; a++)
+	while (a < 10)
 	{
-		for (b = 0; b < 10; b++)
+		while (b < 10)
 		{
 			putchar(a + '0');
 			putchar(b + '0');
@@ -25,6 +25,8 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+			a++;
+			b++;
 		}
 	}
 	putchar('\n');
