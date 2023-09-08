@@ -7,7 +7,7 @@
  *
  * Description: A C programme using if else
  *
- * Return: this return 0
+ * Return: This return 0
  */
 
 int main(void)
@@ -17,13 +17,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf(n, "%i is positive\n");
+		printf("%i is positive\n", n);
 	else if (n == 0)
-		printf(n, "%i is zero\n");
-	else if (n < 0)
-		printf(n, "%i is negative\n");
+		printf("%i is zero\n", n);
 	else
-		printf("none");
+		printf("%i is negative\n", n);
 	return (0);
 }
 
