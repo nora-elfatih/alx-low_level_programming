@@ -14,7 +14,7 @@ int main(void)
 
 	char a = 'a';
 
-	while (n >= 9)
+	while (n <= 9)
 	{
 		putchar(n);
 		n++;
