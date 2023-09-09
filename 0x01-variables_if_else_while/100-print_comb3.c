@@ -13,23 +13,20 @@ int main(void)
 	int a = 0;
 	int b = 0;
 
-	while (a < 10)
+	for (a = 0; a < 10; a++)
 	{
-		while (b < 10)
+		for (b = 0; b < 10; b++)
 		{
 			putchar(a + '0');
 			putchar(b + '0');
-
-			if (a != 9 && b != 9)
+			if (a != b)
 			{
-
 				putchar(',');
 				putchar(' ');
 			}
-			a++;
-			b++;
 		}
 	}
+
 	putchar('\n');
 	return (0);
 }
