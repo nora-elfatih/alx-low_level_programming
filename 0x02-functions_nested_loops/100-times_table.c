@@ -27,9 +27,9 @@ void print_times_table(int n)
 
 				o = l * m;
 
-				if (o <= 9)
-					_putchar(' ');
 				if (o <= 99)
+					_putchar(' ');
+				if (o <= 9)
 					_putchar(' ');
 
 				if (o >= 100)
@@ -40,8 +40,8 @@ void print_times_table(int n)
 				else if (o <= 99 && o >= 10)
 				{
 					_putchar((o / 10) + '0');
-					_putchar((o % 10) + '0');
 				}
+					_putchar((o % 10) + '0');
 			}
 			_putchar('\n');
 		}
