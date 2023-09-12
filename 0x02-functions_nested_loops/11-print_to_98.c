@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_to_98
+ * print_to_98 - Prints number to 98
  *
  * @n: Input value
  *
@@ -21,7 +21,7 @@ void print_to_98(int n)
 	else
 	{
 		for (i = n; i < 98; i++)
-			printf("%d\n", i);
+			printf("%d, ", i);
 	}
 	printf("98\n");
 }
