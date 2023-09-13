@@ -14,7 +14,7 @@ int main(void)
 	int s = 0;
 	int i;
 
-	for (i = i; i < l; i++)
+	for (i = 1; i < l; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
 		{
