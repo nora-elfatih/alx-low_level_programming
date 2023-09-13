@@ -13,8 +13,8 @@ int main(void)
 	int a = 1;
 	int b = 2;
 	int c;
+	int count = 2;
 
-	count = 2;
 	printf("%d, %d, ", a, b);
 
 	while (count < 98)
