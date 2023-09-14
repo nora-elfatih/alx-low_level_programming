@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - Entry point
+ * main -  Entry point
  *
  * Description: Fizz Buzz FizzBuzz
  *
@@ -24,5 +24,6 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("\n");
+
 	return (0);
 }
