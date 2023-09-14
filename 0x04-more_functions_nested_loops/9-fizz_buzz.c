@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Print  1 to 100 fizz buzz fizzbuzz
+ * Description: Print 1 to 100 fizz buzz fizzbuzz
  *
  * Return: This return 0
  */
@@ -16,19 +16,23 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
+			printf(" ");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
+			printf(" ");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
+			printf(" ");
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d", i);
+			printf(" ");
 		}
 	}
 	printf("\n");
