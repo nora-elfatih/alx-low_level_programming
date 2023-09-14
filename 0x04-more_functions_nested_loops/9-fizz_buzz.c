@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Description: Print 1 to 100 fizz buzz fizzbuzz
+ * Description: Fizz Buzz FizzBuzz
  *
- * Return: This return 0
+ * Return: This Return 0
  */
 
 int main(void)
